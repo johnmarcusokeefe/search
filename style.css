@@ -3,13 +3,13 @@ body {
 }
 
 a {
-  padding: 5px;
+    padding: 5px;
 }
 .lower{
-  height: 85vh;
+    height: 85vh;
 }
 .upper {
-  height: 10vh;
+    height: 10vh;
 }
 .inputtext {
 	border-radius: 25px;
