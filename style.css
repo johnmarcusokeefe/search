@@ -1,0 +1,50 @@
+body {
+    font-size: 10pt;
+}
+
+a {
+  padding: 5px;
+}
+.lower{
+  height: 85vh;
+}
+.upper {
+  height: 10vh;
+}
+.inputtext {
+	border-radius: 25px;
+	padding: 10px;
+	border: 1px solid lightgray;
+	width: 400px;
+}
+.adv-search {
+	padding: 2px;
+	border: 1px solid lightgray;
+	width: 600px;
+	margin-top: 10px;
+}
+input {
+    padding-left: 10px;
+    border-radius: 5px;
+}
+table {
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+}
+.google-input {
+    float: right;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 2px;
+}
+.google-bg-blue {
+    background: #4d90fe;
+    color: white;
+}
+.google-blue {
+    color: #4d90fe;
+}
+.container {
+    margin: 0;
+    margin-left: 30px;
+}

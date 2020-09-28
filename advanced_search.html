@@ -1,0 +1,58 @@
+<!--  
+Google advanced search options
+as_q = "all these words"
+as_epq = "exact word or phrase"
+as_oq = "any words"
+as_eq = "add - for none of these words"
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+          <div class="container">
+          <div class="upper w-100">
+              <div class="text-left">
+                <a href="index.html">Home</a>
+              </div>
+          </div>
+          <div class="row lower">
+              
+                <form action="https://google.com/search">                
+                <table>
+                <h3 class="text-danger">Advanced Search</h3>
+                  <tr>
+                      <td>Search All</td>
+                      <td><input class="adv-search" type="text" name="as_q"></td>   
+                      <td>Type the important words: tri-colour rat terrier</td> 
+                 </tr>
+                 <tr>
+                      <td>Exact Word or Phrase</td>
+                      <td><input class="adv-search" type="text" name="as_epq"></td>  
+                      <td>Put exact words in quotes: "rat terrier"</td>                    
+                  </tr>
+                  <tr>
+                      <td>Any Words"</td>
+                      <td><input  class="adv-search" type="text" name="as_oq"></td>
+                      <td>Type OR between all the words you want: miniature OR standard</td>
+                  </tr>
+                  <tr>
+                      <td>None of these words</td>
+                      <td><input  class="adv-search" type="text" name="as_eq"></td> 
+                      <td>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>                             
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td><input class="border-0 google-bg-blue google-input" type="submit" value="Submit"></td> 
+                      <td></td>                             
+                  </tr>
+                </table>
+                                 
+               </form>
+              </div>
+              </div>
+    </body>
+</html>
