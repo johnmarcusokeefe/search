@@ -45,6 +45,7 @@ table {
     color: #4d90fe;
 }
 .container {
+    min-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
