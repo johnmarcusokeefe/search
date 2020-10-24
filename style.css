@@ -1,9 +1,13 @@
 body {
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 a {
     padding: 5px;
+}
+.johno-title {
+    font-size: 24pt;
+    padding-bottom: 20px;
 }
 .lower{
     height: 85vh;
