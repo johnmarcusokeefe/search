@@ -12,6 +12,7 @@ p {
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30pt;
+    font-weight: 900;
 }
 .lower{
     height: 85vh;
