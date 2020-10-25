@@ -6,7 +6,8 @@ a {
     padding: 5px;
 }
 .johno-title {
-    font-size: 24pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30pt;
     padding-bottom: 20px;
 }
 .lower{
