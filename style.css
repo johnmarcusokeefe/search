@@ -5,10 +5,13 @@ body {
 a {
     padding: 5px;
 }
+p {
+    margin: 0;
+    padding: 0;
+}
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30pt;
-    padding-bottom: 20px;
 }
 .lower{
     height: 85vh;
