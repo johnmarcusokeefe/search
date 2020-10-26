@@ -17,6 +17,10 @@ input {
     border-radius: 10px;
     border: 1px solid gray;
 }
+tr {
+padding-top: 5px;
+padding-bottom: 5px;
+}
 .adv-search {
     font-size: 9pt;
     border-top: 1px dotted gray;
