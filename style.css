@@ -31,6 +31,10 @@ padding-bottom: 5px
 .adv-search tr td input {
     width: 500px;
 }
+.as-button {
+    width: 100px;
+    float: right;
+}
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30pt;
