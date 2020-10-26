@@ -9,6 +9,10 @@ p {
     margin: 0;
     padding: 0;
 }
+.advanced-search {
+    font: font-size: 9pt;
+
+}
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30pt;
