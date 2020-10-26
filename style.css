@@ -11,6 +11,7 @@ p {
 }
 h3 {
     size: 12pt;
+    margin-bottom: 10px;
 }
 input {
     padding-left: 10px;
@@ -19,10 +20,11 @@ input {
 table {
     border-top: 1px dotted gray;
     border-bottom: 1px dotted gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .adv-search {
     font-size: 9pt;
-
 }
 .adv-search input {
 	padding: 2px;
