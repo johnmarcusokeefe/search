@@ -23,6 +23,10 @@ input {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.adv-search td input {
+    width: 500px
+
+}
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30pt;
