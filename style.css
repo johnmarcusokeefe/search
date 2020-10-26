@@ -24,7 +24,7 @@ input {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.adv-search td input {
+input td.adv-search {
     width: 500px;
 }
 .johno-title {
