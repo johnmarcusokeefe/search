@@ -25,12 +25,6 @@ table {
 .adv-search {
     font-size: 9pt;
 }
-.adv-search input {
-	padding: 2px;
-	border: 1px solid lightgray;
-	width: 500px;
-	margin-top: 10px;
-}
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30pt;
