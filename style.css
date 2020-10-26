@@ -16,14 +16,12 @@ h3 {
 input {
     border-radius: 5px;
 }
-table {
+.adv-search {
+    font-size: 9pt;
     border-top: 1px dotted gray;
     border-bottom: 1px dotted gray;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.adv-search {
-    font-size: 9pt;
 }
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
