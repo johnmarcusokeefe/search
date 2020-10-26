@@ -1,7 +1,6 @@
 body {
     font-size: 12pt;
 }
-
 a {
     padding: 5px;
 }
@@ -15,10 +14,18 @@ h3 {
 }
 input {
     border-radius: 2px;
+    padding: 5px;
     border: 1px solid lightgray;
 }
 .adv-search table tr td {
     padding-top: 10px;
+}
+td:nth-child(1) {
+    width: 200px;
+}
+td:nth-child(3) {
+    font-size: 8pt;
+    padding-left: 10px;
 }
 .adv-search {
     font-size: 9pt;
@@ -31,7 +38,7 @@ tr {
     height: 40px;
 }
 .adv-search-input {
-    width: 500px;
+    width: 550px;
 }
 .as-button {
     width: 100px;
@@ -55,7 +62,6 @@ tr {
 	border: 1px solid lightgray;
 	width: 400px;
 }
-
 .google-input {
     float: right;
     margin-top: 10px;
