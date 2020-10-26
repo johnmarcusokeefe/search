@@ -9,8 +9,11 @@ p {
     margin: 0;
     padding: 0;
 }
+h3 {
+    size: 12pt;
+}
 .advanced-search {
-    font: font-size: 9pt;
+    font-size: 9pt;
 
 }
 .johno-title {
