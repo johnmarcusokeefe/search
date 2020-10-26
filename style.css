@@ -18,8 +18,7 @@ input {
     border: 1px solid gray;
 }
 .advanced-search tr {
-padding-top: 5px;
-padding-bottom: 5px
+    margin-bottom: 10px;
 }
 .adv-search {
     font-size: 9pt;
@@ -34,6 +33,7 @@ padding-bottom: 5px
 .as-button {
     width: 100px;
     float: right;
+    margin-bottom: 10px;
 }
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
