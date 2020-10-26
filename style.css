@@ -12,9 +12,23 @@ p {
 h3 {
     size: 12pt;
 }
-.advanced-search {
+input {
+    padding-left: 10px;
+    border-radius: 5px;
+}
+table {
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+}
+.adv-search {
     font-size: 9pt;
 
+}
+.adv-search input {
+	padding: 2px;
+	border: 1px solid lightgray;
+	width: 500px;
+	margin-top: 10px;
 }
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
@@ -33,20 +47,8 @@ h3 {
 	border: 1px solid lightgray;
 	width: 400px;
 }
-.adv-search {
-	padding: 2px;
-	border: 1px solid lightgray;
-	width: 600px;
-	margin-top: 10px;
-}
-input {
-    padding-left: 10px;
-    border-radius: 5px;
-}
-table {
-    border-top: 1px dotted gray;
-    border-bottom: 1px dotted gray;
-}
+
+
 .google-input {
     float: right;
     margin-top: 20px;
