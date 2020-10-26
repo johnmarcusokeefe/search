@@ -15,6 +15,7 @@ h3 {
 }
 input {
     border-radius: 5px;
+    border: 1px solid gray;
 }
 .adv-search {
     font-size: 9pt;
@@ -24,8 +25,7 @@ input {
     padding-bottom: 10px;
 }
 .adv-search td input {
-    width: 500px
-
+    width: 500px;
 }
 .johno-title {
     font-family: 'Courier New', Courier, monospace;
