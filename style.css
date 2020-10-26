@@ -17,7 +17,7 @@ input {
     border-radius: 10px;
     border: 1px solid gray;
 }
-.advanced-search td {
+.adv-search tr {
     padding-top: 10px;
 }
 .adv-search {
