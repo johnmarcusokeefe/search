@@ -9,13 +9,19 @@ p {
     padding: 0;
 }
 h3 {
-    size: 12pt;
     margin-bottom: 10px;
 }
 input {
     border-radius: 2px;
     padding: 5px;
     border: 1px solid lightgray;
+}
+td:nth-child(1) {
+    width: 200px;
+}
+td:nth-child(3) {
+    font-size: 8pt;
+    padding-left: 10px;
 }
 .adv-search {
     position: relative;
@@ -29,18 +35,8 @@ input {
     padding-top: 10px;
     padding-left: 30px;
 }
-td:nth-child(1) {
-    width: 200px;
-}
-td:nth-child(3) {
-    font-size: 8pt;
-    padding-left: 10px;
-}
 .adv-search-input {
     width: 550px;
-}
-.filler {
-    visibility: hidden;
 }
 .as-button {
     width: 100px;
@@ -51,6 +47,9 @@ td:nth-child(3) {
     min-width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+.filler {
+    visibility: hidden;
 }
  .google-search {
     position: relative;
@@ -85,8 +84,10 @@ td:nth-child(3) {
     color: #4d90fe;
 }
 .lower {
-    margin-top: 10%;
-    height: 85vh;
+    padding-top: 15vh;
+}
+.row {
+    margin: 0;
 }
 .search-title {
     font-family: 'Arial';
@@ -95,8 +96,4 @@ td:nth-child(3) {
 }
 .upper {
     height: 10vh;
-}
-.row {
-    padding: 0;
-    margin: 0;
 }
