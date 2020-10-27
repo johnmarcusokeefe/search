@@ -96,3 +96,7 @@ td:nth-child(3) {
 .upper {
     height: 10vh;
 }
+.row {
+    padding: 0;
+    margin: 0;
+}
