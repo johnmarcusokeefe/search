@@ -17,8 +17,17 @@ input {
     padding: 5px;
     border: 1px solid lightgray;
 }
-.adv-search table tr td {
+.adv-search {
+    position: relative;
+    font-size: 9pt;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    width: 100%;
+}
+.adv-search tr {
+    display: block;
     padding-top: 10px;
+    padding-left: 30px;
 }
 td:nth-child(1) {
     width: 200px;
@@ -27,21 +36,11 @@ td:nth-child(3) {
     font-size: 8pt;
     padding-left: 10px;
 }
-
-tr {
-    height: 40px;
-}
-
-.adv-search {
-    font-size: 9pt;
-    border-top: 1px dotted gray;
-    border-bottom: 1px dotted gray;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .adv-search-input {
     width: 550px;
+}
+.filler {
+    visibility: hidden;
 }
 .as-button {
     width: 100px;
@@ -53,7 +52,6 @@ tr {
     margin-left: auto;
     margin-right: auto;
 }
-
  .google-search {
     position: relative;
     margin: auto;
